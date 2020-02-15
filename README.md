@@ -1,2 +1,2 @@
 # javascript-algorithms
-Some basic javascript algorithms resolutions
+Some basic javascript algorithms solutions
