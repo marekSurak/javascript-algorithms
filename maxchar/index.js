@@ -6,10 +6,6 @@
 // maxChar("apple 1231111") === "1"
 
 function maxChar(str) {
-    //spravim pole
-    //zoradim ho
-    //index posledneho vyskuty - index prveho vyskytu = pocet znakov
-
     const arr = str.split('').sort()
     let maxCount = 0
     let maxChar

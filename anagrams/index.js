@@ -9,11 +9,6 @@
 //   anagrams('Hi there', 'Bye there') --> False
 
 function anagrams(stringA, stringB) {
-    // const str1 = stringA.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('')
-    // const str2 = stringB.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('')
-
-    // return str1 === str2
-
     const arrA = stringA.replace(/[^\w]/g, '').split('')
     const arrB = stringB.replace(/[^\w]/g, '').split('')
     
